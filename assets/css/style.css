@@ -202,10 +202,11 @@ body {
   }
   @media screen and (max-width: 980px){
     .container{
-        width: 800px;
+        width: 100%;
+        padding: 20px;
     }
     .main-section{
-        width: 300px;
+        width: 60%;
     }
     .sidebar{
         width: 100%;
@@ -213,11 +214,51 @@ body {
     
 }
 @media screen and (max-width: 768px){
-    
+    .container{
+        width: 100%;
+        padding: 60px;
+    }
+    .main-section{
+        width: 100%;
+    }
+    .sidebar{
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
   @media screen and (max-width: 640px){
-    #masthead{
-        position: static;
+    #logo{
+       
+        position: absolute;
+        top: -10px;
+        left: -8px;
+        width: 100%;
+        max-width: 100%;
     }
+    #masthead{
+        margin-bottom: 60px;
+    }
+    a {
+        padding-right: 60px;
+        padding-left: 60px;
+        margin-left: 10px;
+    }
+    
+    .container{
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .imglink{
+        padding: 0;
+    }
+    .main-section{
+        width: 100%;
+    }
+    .auth-image{
+        width: 90%;
+    }
+    
   }
